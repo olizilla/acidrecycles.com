@@ -1,0 +1,51 @@
+body{
+	color:#ddd;
+	background: #333
+}
+#welcome {
+	background:url("../img/background-bike.jpg") no-repeat center center;
+	background-size:cover;
+}
+.navbar .brand{
+	font-family: 'Kreon', sans-serif;
+}
+.acid{
+	color:#16EF16;
+}
+.navbar{
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4)
+}
+h1, h2{
+	font-family: 'Kreon', sans-serif;
+	color: #eee;
+	text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+h2{
+	font-size: 300%;
+}
+body.home h1{
+	font-size: 700%;
+	line-height: 110%;
+	padding: 28% 0;
+	text-align: center;
+}
+#gallery .img-polaroid{
+	vertical-align: top;
+	margin: 4px 2px 4px 0;
+}
+#modal .img-polaroid{
+	padding:0;
+	border: 0;
+}
+#gallery, #contact{
+	min-height: 700px;
+	padding-top:40px;
+}
+#contact{
+	background: url("../img/acid-recycles-logo.png") no-repeat;
+	background-position: center right;
+}
+address{
+	font-size: 120%;
+	line-height: 130%;
+}
